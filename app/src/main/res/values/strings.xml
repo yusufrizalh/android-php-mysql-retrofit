@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">AndroidJavaRetrofit</string>
+    <string name="app_name">Android Inixindo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- OnBoard Screen. -->
+    <string name="ob_header1">WELCOME TO INIXINDO</string>
+    <string name="ob_header2">LEARNING CENTER &amp; CERTIFICATION SERVICES</string>
+    <string name="ob_header3">CONTINUOUS LEARNING KEEP UP TO DATE</string>
+    <string name="ob_get_started">GET STARTED</string>
+    <string name="ob_desc1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sit amet consectetur adipiscing elit ut aliquam.</string>
+    <string name="ob_desc2">Urna nec tincidunt praesent semper feugiat nibh sed. Ultrices dui sapien eget mi proin sed libero. Et magnis dis parturient montes nascetur ridiculus mus mauris vitae.</string>
+    <string name="ob_desc3">Sagittis orci a scelerisque purus semper. Proin nibh nisl condimentum id venenatis a condimentum. Imperdiet dui accumsan sit amet nulla facilisi morbi.</string>
+
 </resources>
