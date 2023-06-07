@@ -102,10 +102,10 @@ public class EditRiderActivity extends AppCompatActivity {
                 String message = response.body().getMessage();
 
                 if (code == 1) {
-                    Toast.makeText(EditRiderActivity.this, "Success! " + message, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EditRiderActivity.this, message, Toast.LENGTH_SHORT).show();
                     finish();
                 } else {
-                    Toast.makeText(EditRiderActivity.this, "Error! " + message, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EditRiderActivity.this, message, Toast.LENGTH_SHORT).show();
                 }
             }
 
@@ -114,6 +114,8 @@ public class EditRiderActivity extends AppCompatActivity {
                 Toast.makeText(EditRiderActivity.this, "Failed connect to server!", Toast.LENGTH_SHORT).show();
             }
         });
+
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
 
     @Override

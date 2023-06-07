@@ -90,10 +90,10 @@ public class AddRiderActivity extends AppCompatActivity {
                 String message = response.body().getMessage();
 
                 if (code == 1) {
-                    Toast.makeText(AddRiderActivity.this, "Success! " + message, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddRiderActivity.this, message, Toast.LENGTH_SHORT).show();
                     finish();
                 } else {
-                    Toast.makeText(AddRiderActivity.this, "Error! " + message, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddRiderActivity.this, message, Toast.LENGTH_SHORT).show();
                 }
             }
 
@@ -102,6 +102,8 @@ public class AddRiderActivity extends AppCompatActivity {
                 Toast.makeText(AddRiderActivity.this, "Failed connect to server!", Toast.LENGTH_SHORT).show();
             }
         });
+
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
 
     @Override
