@@ -144,9 +144,9 @@ public class AdapterRiders extends RecyclerView.Adapter<AdapterRiders.HolderRide
                     String message = response.body().getMessage();
 
                     if (code == 1) {
-                        Toast.makeText(context, "Success! " + message, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
                     } else {
-                        Toast.makeText(context, "Failed! " + message, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
                     }
                 }
 
